@@ -16,7 +16,7 @@ const myTokenStore = new Whatsapp.tokenStore.FileTokenStore({
 	path: './tokens'
 });
 
-// PROJECT NAME TO GENERATE THE KEY.JSON
+// NOME DO PROJETO PARA GERAR A CHAVE.JSON
 const _project = 'guia-phb';
 
 const pms = require('./interface/permission.json');
